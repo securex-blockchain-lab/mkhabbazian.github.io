@@ -12286,7 +12286,7 @@
     appendHead(`
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <link rel="icon" type="image/png" href="data:image/png;base64,${favicon}">
-    <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="Articles from Distill">
+    <link href="./rss.xml" rel="alternate" type="application/rss+xml" title="Articles from Distill">
   `);
 
     if (data.title) {
@@ -12889,14 +12889,14 @@ distill-header .nav a {
 }
 </style>
 <div class="content">
-  <a href="/" class="logo">
+  <a href="./" class="logo">
     ${logo}
     Distill
   </a>
   <nav class="nav">
-    <a href="/about/">About</a>
-    <a href="/prize/">Prize</a>
-    <a href="/journal/">Submit</a>
+    <a href="./about/">About</a>
+    <a href="./prize/">Prize</a>
+    <a href="./journal/">Submit</a>
   </nav>
 </div>
 `;
@@ -13051,7 +13051,7 @@ distill-header .nav a {
 
 <div class='footer-container'>
 
-  <a href="/" class="logo">
+  <a href="./" class="logo">
     ${logo}
     Distill
   </a> is dedicated to clear explanations of machine learning
