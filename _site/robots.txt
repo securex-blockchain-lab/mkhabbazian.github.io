@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://securex.github.io/sitemap.xml

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://securex.github.io/sitemap.xml
+Sitemap: https://sites.ualberta.ca/~mkhabbaz/sitemap.xml
